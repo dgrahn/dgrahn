@@ -33,6 +33,7 @@
   
   <div class="container">
   
+      <p></p>
       <div class="card grey lighten-4">
       <div class="card-content">
         <span class="card-title black-text">CSCI-578 Project</span>
@@ -156,8 +157,7 @@
       <p class="flow-text">
         In order to account for the custom functionality in TrojaNow, a custom
         server was written. This server was written in Rails. The following
-        commands are necessary to start the server.
-        </p>
+        commands are necessary to start the server.</p>
 
 <pre>
 <span># Reset the database</span>
@@ -195,10 +195,36 @@ private static final String SERVER = "http://[YOUR SERVER IP]:3000/";
     <h2 class="header">Lessons</h2>
     
       <h4>Mapping is Hard!</h4>
-      
-      <h4>Don't Live in an Ivory Tower</h4>
+        <p class="flow-text">
+          One of the hardest parts of this project was conforming to the original
+          architecture. Due to constraints placed upon interactions by Android, it
+          simply wasn't possible at certain spots.</p>
       
       <h4>Keep the Target in Mind</h4>
+        <p class="flow-text">
+          If your intended target already has support for a particular architecture,
+          think long and hard before differing form that architecture. Working
+          against a target is much harder than working with it.</p>
+          
+        <p class="flow-text">
+          If I were to redo the TrojaNow architecture, I would make modifications
+          so that the application could map more directly to the Android SDK. This
+          would allow for faster coding with less hassle.</p>
+
+      <h4>Don't Live in an Ivory Tower</h4>
+        <p class="flow-text">
+          If an architect isn't doing development, they need to frequently hear
+          the feedback of the developers. As the architect of my project, it
+          hurt every time I had to change the architecture. At the same time, I
+          was occassionally frustrated by limitations of the architecture and
+          conflicts with the target.</p>
+          
+        <p class="flow-text">
+          Being aware of these conflicts allowed me to make executive decisions
+          about how and where to change the architecture. If another target is
+          added, I would recommend creating a modified architecture for the new
+          target. Most parts of the architecture would stay the same, but some
+          may have to change.</p>
     
     <h2 class="header">Screenshots</h2>
     
